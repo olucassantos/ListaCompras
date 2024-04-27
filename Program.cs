@@ -4,8 +4,14 @@
 
 int quantidadeItens = 0;
 
+Console.BackgroundColor = ConsoleColor.Green;
+Console.ForegroundColor = ConsoleColor.Blue;
+
 Console.WriteLine("Qual a quantidade de itens da sua lista?");
 quantidadeItens = int.Parse(Console.ReadLine());
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.ForegroundColor = ConsoleColor.Red;
 
 string[] itens = new string[quantidadeItens];
 
